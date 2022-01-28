@@ -30,6 +30,11 @@ public class EnemyAI : MonoBehaviour
             isProvoked = true;
         }
     }
+]
+    public void onDamageTaken()
+    {
+        isProvoked = true;
+    }
 
     private void EngageTarget()
     {
