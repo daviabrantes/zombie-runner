@@ -31,7 +31,7 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    public void onDamageTaken()
+    public void OnDamageTaken()
     {
         isProvoked = true;
     }
