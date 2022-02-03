@@ -462,6 +462,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 1705547011468198492}
   hitEffect: {fileID: 6131300906963872107}
   ammoSlot: {fileID: 0}
+  timeBetweenShots: 0.5
 --- !u!1 &4446680932514452605
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +633,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4446680932514089051}
     m_Modifications:
+    - target: {fileID: 1305180511864107758, guid: 59b7cd8287c756a40999ba3db46cf6b1, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1782540851275154810, guid: 59b7cd8287c756a40999ba3db46cf6b1, type: 3}
       propertyPath: m_Name
       value: Muzzle Flash VFX
